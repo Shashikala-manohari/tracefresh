@@ -1,0 +1,15 @@
+# Store text files with LF line endings in the repository
+* text=auto
+
+# Shell scripts must keep LF: they run inside Linux containers
+*.sh   text eol=lf
+mvnw   text eol=lf
+
+# Windows scripts must keep CRLF
+*.cmd  text eol=crlf
+*.bat  text eol=crlf
+
+# Binary files: never convert
+*.jar  binary
+*.png  binary
+*.jpg  binary

@@ -1,0 +1,28 @@
+# ---- Java / Maven ----
+target/
+*.class
+*.log
+
+# ---- IntelliJ IDEA ----
+.idea/
+*.iml
+
+# ---- VS Code ----
+.vscode/
+
+# ---- Node / React ----
+node_modules/
+dist/
+
+# ---- Secrets and environment files ----
+.env
+.env.*
+!.env.example
+
+# ---- LocalStack----
+.localstack/
+volume/
+
+# ---- Operating system files ----
+Thumbs.db
+.DS_Store
