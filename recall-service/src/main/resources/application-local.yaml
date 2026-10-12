@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/recall_db
+    username: tracefresh
+    password: tracefresh
+
+management:
+  endpoint:
+    health:
+      show-details: always
+
+logging:
+  level:
+    org.flywaydb: info
